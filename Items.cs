@@ -278,6 +278,16 @@ namespace MMRando
         const int TM_StoneTower = 253;
         //oops I forgot one
         const int To_GR_Grotto = 254;
+        //Additional logical constructions
+        const int Wallet = 255;
+        const int Bottle = 256;
+        const int Bombchus = 257;
+        const int Magic_Bean_Growable = 258;
+        const int Snowhead_Key_Count_1 = 259;
+        const int Snowhead_Key_Count_2 = 260;
+        const int Stone_Tower_Key_Count_1 = 261;
+        const int Stone_Tower_Key_Count_2 = 262;
+        const int Stone_Tower_Key_Count_3 = 263;
 
         int[] REPEATABLE = new int[] { Moon_Tear, Land_Deed, Swamp_Deed, Mountain_Deed, Ocean_Deed, Room_Key, Kafei_Letter, 
         Pendant, Mama_Letter, WF_BK, WF_Key1, SH_BK, SH_Key1, SH_Key2, SH_Key3, GB_BK, GB_Key1, ST_BK, ST_Key1, ST_Key2, 
@@ -395,7 +405,16 @@ namespace MMRando
             0xC5CE73,
             0xC5CE72,
             0xC5CE72,
-            0xC5CE72
+            0xC5CE72,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         };
 
         byte[] ITEM_VALUES = new byte[]
@@ -497,7 +516,16 @@ namespace MMRando
             0x80,
             0x31,
             0x32,
-            0x34
+            0x34,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
         };
 
         string[] ITEM_NAMES = new string[] { "Deku Mask", "Hero's Bow", "Fire Arrow", "Ice Arrow", "Light Arrow", "Bomb Bag", "Magic Bean", 
@@ -536,7 +564,7 @@ namespace MMRando
         "Path to Swamp HP", "Swamp Scrub HP", "Deku Palace HP", "Goron Village Scrub HP", "Bio Baba Grotto HP", "Lab Fish HP", "Great Bay Like-Like HP",
         "Pirates' Fortress HP", "Zora Hall Scrub HP", "Path to Snowhead HP", "Great Bay Coast HP", "Ikana Scrub HP", "Ikana Castle HP", 
         "Odolwa Heart Container", "Goht Heart Container", "Gyorg Heart Container", "Twinmold Heart Container", "Map: Clock Town", "Map: Woodfall",
-        "Map: Snowhead", "Map: Romani Ranch", "Map: Great Bay", "Map: Stone Tower", "Goron Racetrack Grotto" };
+        "Map: Snowhead", "Map: Romani Ranch", "Map: Great Bay", "Map: Stone Tower", "Goron Racetrack Grotto", "", "", "", "", "", "", "", "", "" };
 
     }
 

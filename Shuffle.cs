@@ -813,7 +813,7 @@ namespace MMRando
             TargetPool = new List<int>();
             for (int i = 0; i < ItemList.Count; i++)
             {
-                if (((i > Song_Oath) && (i < WF_Map)) || (ItemList[i].Replaces != -1))
+                if (((i > Song_Oath) && (i < WF_Map)) || (i > To_GR_Grotto) || (ItemList[i].Replaces != -1))
                 {
                     continue;
                 };

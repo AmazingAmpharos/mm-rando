@@ -240,7 +240,7 @@ namespace MMRando
             //write everything else
             ROMFuncs.ReplaceGetItemTable(ModsDir);
             ROMFuncs.InitItems();
-            for (int i = 0; i < ItemList.Count; i++)
+            for (int i = 0; i < ItemList.Count - 9; i++)
             {
                 if (ItemList[i].Replaces == -1)
                 {

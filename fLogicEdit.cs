@@ -51,7 +51,8 @@ namespace MMRando
         "Path to Swamp HP", "Swamp Scrub HP", "Deku Palace HP", "Goron Village Scrub HP", "Bio Baba Grotto HP", "Lab Fish HP", "Great Bay Like-Like HP",
         "Pirates' Fortress HP", "Zora Hall Scrub HP", "Path to Snowhead HP", "Great Bay Coast HP", "Ikana Scrub HP", "Ikana Castle HP", 
         "Odolwa Heart Container", "Goht Heart Container", "Gyorg Heart Container", "Twinmold Heart Container", "Map: Clock Town", "Map: Woodfall",
-        "Map: Snowhead", "Map: Romani Ranch", "Map: Great Bay", "Map: Stone Tower", "Goron Racetrack Grotto" };
+        "Map: Snowhead", "Map: Romani Ranch", "Map: Great Bay", "Map: Stone Tower", "Goron Racetrack Grotto", "Wallet Upgrade", "Any Bottle", "Bombchus",
+        "Magic Bean Growable", "Snowhead Key Count: 1", "Snowhead Key Count: 2", "Stone Tower Key Count: 1", "Stone Tower Key Count: 2", "Stone Tower Key Count: 3"};
 
         bool updating = false;
         int n;

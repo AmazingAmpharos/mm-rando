@@ -4,8 +4,8 @@
 0
 0
 - Hero's Bow
-99,124
-
+99
+10;0,115;0,124
 0
 0
 - Fire Arrow
@@ -29,8 +29,8 @@
 0
 0
 - Magic Bean
-98,0
-
+98
+0;258
 0
 0
 - Powder Keg
@@ -39,7 +39,7 @@
 0
 0
 - Pictobox
-98
+256
 
 0
 0
@@ -319,8 +319,8 @@
 0
 0
 - Woodfall Chest HP
-98,0
-
+98
+0;100
 0
 0
 - Twin Islands Chest HP
@@ -490,7 +490,7 @@
 0
 - Poison swamp access
 
-12;13;14;15;16;17;1,0;22,0;23,0;89
+256;0,115;0,10;89;100
 0
 0
 - Woodfall Temple access
@@ -499,8 +499,8 @@
 0
 0
 - Woodfall clear
-99,115,121,122,123,124
-
+99,115,123
+0;10
 0
 0
 - North access
@@ -605,12 +605,12 @@
 0
 - Woodfall Map
 99
-0;10
+0;10,114
 0
 0
 - Woodfall Compass
-99,124
-
+99
+10;0,115;0,124
 0
 0
 - Woodfall Boss Key
@@ -1026,13 +1026,13 @@
 0
 0
 - Woodfall 5r
-98,0
-
+98
+0;100
 0
 0
 - Woodfall 20r
-98,0
-
+98
+0;100
 0
 0
 - Well Right Path 50r
@@ -1226,8 +1226,8 @@
 0
 0
 - Odolwa Heart Container
-99,115,0,121,122,123,124
-
+99,115,123
+0;10
 0
 0
 - Goht Heart Container
@@ -1279,5 +1279,50 @@
 - Goron Racetrack Grotto
 101,114,88
 
+0
+0
+- Wallet Upgrade
+
+26;27
+0
+0
+- Any Bottle
+
+12;13;14;15;16;17
+0
+0
+- Bombchus
+
+5,154;5,187;5,213;24,154;24,187;24,213;25,154;25,187;25,213
+0
+0
+- Magic Bean Growable
+
+6,92;6,256;0,98,92;0,98,256
+0
+0
+- Snowhead Key Count: 1
+
+128;129;130
+0
+0
+- Snowhead Key Count: 2
+
+128,129;128,130;129,130
+0
+0
+- Stone Tower Key Count: 1
+
+138;139;140;141
+0
+0
+- Stone Tower Key Count: 2
+
+138,139;138,140;138,141;139,140;139,141;140,141
+0
+0
+- Stone Tower Key Count: 3
+
+138,139,140;138,139,141;138,140,141;139,140,141
 0
 0
