@@ -29,8 +29,8 @@
 0
 0
 - Magic Bean
-98
-0;258
+98,0
+
 0
 0
 - Powder Keg
@@ -79,7 +79,7 @@
 0
 0
 - Dampe Bottle
-109,86
+91,86
 
 0
 32
@@ -90,7 +90,7 @@
 32
 - Bombers' Notebook
 
-0;89;1;22;23;10
+0;89;115;10
 0
 0
 - Razor Sword
@@ -105,7 +105,7 @@
 48
 - Mirror Shield
 110
-5,163,84,6;24,163,84,6;25,163,84,6;1,2,4;22,2,4;23,2,4
+4,2;4,166;166,163,0,98
 0
 0
 - Town Archery Quiver (40)
@@ -249,7 +249,7 @@
 0
 0
 - Termina Field Business Scrub HP
-28,255
+255
 
 0
 0
@@ -269,7 +269,7 @@
 0
 0
 - Frog Choir HP
-76,100,103,108,113
+76,103,99,107,10,3,0,89
 
 0
 0
@@ -334,7 +334,7 @@
 0
 0
 - Graveyard Iron Knuckle HP
-109,86
+91,86,114
 
 0
 0
@@ -354,8 +354,8 @@
 0
 2
 - Stone Mask
-109,9
-12;13;14;15;16;17
+91,9,256
+
 0
 0
 - Great Fairy's Mask
@@ -429,7 +429,7 @@
 0
 21
 - Captain's Hat
-109,93,115
+91,93
 
 0
 0
@@ -459,7 +459,7 @@
 0
 1
 - Song of Storms
-109,86
+91,86
 
 0
 2
@@ -479,13 +479,13 @@
 0
 0
 - Elegy of Emptiness
-110,115,2,21,7
-
+110,2,21
+4;7,88,0
 0
 0
 - Oath to Order
 
-
+100;103;108;113
 0
 0
 - Poison swamp access
@@ -543,23 +543,23 @@
 
 0
 0
-- East access
-91
-
+- Lower Ikana Canyon Access
+91,10
+84;85
 0
 0
-- Ikana Canyon access
-109,10,85
+- Upper Ikana Canyon access
+3,115,109
 
 0
 0
 - Stone Tower Temple access
-110,0,88,89,10,96,21
+110,88,89,10,96
 
 0
 0
 - Inverted Stone Tower Temple access
-111,115,4,114
+111,4
 
 0
 0
@@ -835,8 +835,8 @@
 0
 0
 - Bottle: Big Poe
-109,169,164,163
-12,6,5;13,6,5;14,6,5;15,6,5;16,6,5;17,6,5;12,6,24;13,6,24;14,6,24;15,6,24;16,6,24;17,6,24;12,6,25;13,6,25;14,6,25;15,6,25;16,6,25;17,6,25;12,86;13,86;14,86;15,86;16,86;17,86
+110,169,164,163,256,84
+5,4;24,4;25,4;5,0,98;24,0,98;25,0,98
 0
 0
 - Bottle: Spring Water
@@ -871,7 +871,7 @@
 0
 0
 - Bean Grotto 20r
-98,0,10
+98,0
 
 0
 0
@@ -886,13 +886,13 @@
 0
 2
 - Ikana Grotto
-110
+109
 
 0
 0
 - PF 20r Lower
 106
-
+10;88
 0
 0
 - PF 20r Upper
@@ -937,7 +937,7 @@
 0
 - Bombers' Hideout 100r
 114
-
+0;89;115;10
 0
 0
 - Termina Bombchu Grotto
@@ -962,7 +962,7 @@
 0
 - Termina Stump 20r
 
-0;258
+0;258;10
 0
 0
 - Great Bay Coast Grotto
@@ -1012,7 +1012,7 @@
 0
 - Doggy Racetrack 50r
 
-
+10;89;258
 0
 16
 - Graveyard Grotto
@@ -1036,13 +1036,13 @@
 0
 0
 - Well Right Path 50r
-110,84,167,164
-
+110,84,164
+4;163,98,0
 0
 0
 - Well Left Path 50r
-110,84,163,164,6
-
+110,84,164
+255,167;170,167;150,167;255,168;170,168;150,168
 0
 0
 - Mountain Village Chest (Spring)
@@ -1061,22 +1061,22 @@
 0
 0
 - Path to Ikana Grotto
-109,88
+88
 
 0
 0
 - Stone Tower 100r
-111,115,4,6,167
+111,4,258
 
 0
 0
 - Stone Tower Bombchu 10
-111,115,4,6,167
+111,4,258
 
 0
 0
 - Stone Tower Magic Bean
-111,115,4,6,167
+111,4,258
 
 0
 0
@@ -1091,27 +1091,27 @@
 0
 0
 - Secret Shrine HP
-110,115,4
+109,115,4
 
 0
 0
 - Secret Shrine Dinolfos
-110,115,4
+109,115,4
 
 0
 0
 - Secret Shrine Wizzrobe
-110,115,4
+109,115,4
 
 0
 0
 - Secret Shrine Wart
-110,115,4,114
+109,115,4
 
 0
 0
 - Secret Shrine Garo Master
-110,115,4
+109,115,4
 
 0
 0
@@ -1166,8 +1166,8 @@
 0
 0
 - Swamp Scrub HP
-29,0
 
+29,0;88
 0
 0
 - Deku Palace HP
@@ -1216,13 +1216,13 @@
 0
 0
 - Ikana Scrub HP
-110,89,32,0
+109,89,32,0
 
 0
 0
 - Ikana Castle HP
-110,21,115,0,2
-88;89
+110,0,2
+4;21
 0
 0
 - Odolwa Heart Container
@@ -1298,7 +1298,7 @@
 0
 - Magic Bean Growable
 
-6,92;6,167;6,168;0,98,92;0,98,167;0,98,168
+6,92;6,167;6,168;214,92;214,167;214,168;0,98,92;0,98,167;0,98,168
 0
 0
 - Snowhead Key Count: 1
