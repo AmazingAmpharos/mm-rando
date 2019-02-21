@@ -643,6 +643,16 @@ namespace MMRando
                     return false;
                 };
             };
+            //forbid timed items from certain slots
+            int[] Time_forbidden_items = {28, 29, 30, 31, 32, 33, 34, 35, 36,  123, 124, 127, 128, 129, 130, 133, 134, 137, 138, 139, 140, 141};
+            int[] Time_forbidden_slots = {50, 61, 69, 81, 235};
+            if (Time_forbidden_items.Contains(CurrentItem) && Time_forbidden_slots.Contains(Target))
+                return false;
+            //forbid certain bottle content combinations
+            int[] Limited_bottle_items = { 163, 164, 169 };
+            int[] Limited_bottle_slots = { 162, 166 };
+            if (Limited_bottle_items.Contains(CurrentItem) && Limited_bottle_slots.Contains(Target))
+                return false;
             //check direct dependence
             DependenceChecked = new List<int>();
             if (CheckDependence(CurrentItem, Target))
